@@ -1,31 +1,51 @@
 .profile {
-    color: black;
+    outline: solid;
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .description {
-    color: black;
+padding-top: 25px;
 }
 
 .name {
-    color: black;
+ color: black;
+ font-size: 20px;
+ font-weight: 500;
+ margin-bottom: 5px;
+ margin-top: 25px;
 }
 
 .tag {
     color: black;
+    margin-bottom: 5px;
+    font-size: 13px;
 }
 
 .location {
     color: black;
+    margin-bottom: 25px;
+    font-size: 16px;
 }
 
 .stats {
-    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 25px;
 }
 
 .label {
-    color: black;
+    display: block;
 }
 
 .quantity {
     color: black;
+        font-size: 20px;
+        font-weight: 500;
 }
