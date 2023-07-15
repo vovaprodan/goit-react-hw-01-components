@@ -1,0 +1,28 @@
+.transaction_history {
+    width: 450px;
+    margin-top: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-radius: 15px;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gainsboro;
+}
+th {
+    background-color: aqua;
+    padding: 10px;
+    border: 1px solid grey;
+}
+td {
+    padding: 10px;
+        border: 1px solid grey;
+}
