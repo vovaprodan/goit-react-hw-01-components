@@ -23,3 +23,4 @@ Statistics.prototype = {
         percentage: PropTypes.number
     })
 }
+
